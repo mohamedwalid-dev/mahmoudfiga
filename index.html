@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع محمود فيجا لمونتاج الفيديو وتصميم المحتوى الإبداعي، متخصص في إعلانات 4K، مقدمات وسوشيال ميديا.">
+    <title>محمود فيجا - مصمم فيديو واحترافي المونتاج</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mahmoud Mostafa",
+      "alternateName": "Mahmoud Vega",
+      "jobTitle": "Video Editor",
+      "url": "http://localhost:8000/",
+      "telephone": "+201016022870",
+      "sameAs": [
+        "https://www.youtube.com/@Video._.editor-M",
+        "https://www.facebook.com/mido.gamd.56/",
+        "https://www.tiktok.com/@mahmoud.m.salama1",
+        "https://www.behance.net/midofox3"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1 data-i18n="brandName">محمود فيجا</h1>
+                <p class="subtitle" data-i18n="brandSubtitle">مصمم فيديو احترافي</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active" data-i18n="navHome">الرئيسية</a></li>
+                <li><a href="#portfolio" data-i18n="navPortfolio">أعمالي</a></li>
+                <li><a href="#shop" data-i18n="navShop">المتجر</a></li>
+                <li><a href="#about" data-i18n="navAbout">معلومات</a></li>
+                <li><a href="#contact" data-i18n="navContact">تواصل معي</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeToggle" class="btn btn-secondary" type="button" data-i18n="themeButtonDark">وضع الظلام</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-small-title">Mahmoud Figa</p>
+            <h1>محمود فيجا</h1>
+            <p class="hero-tagline">أحول الأفكار لقصص فيديو قوية تسحب الانتباه على السوشيال واليوتيوب.</p>
+            <p class="hero-phone">للتواصل: <a href="tel:01016022870">01016022870</a></p>
+            <p class="hero-desc">سينيور مونتاج وفيديو يعيد صياغة أفكارك بأحدث أساليب المحتوى</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">تواصل معي</a>
+                <a href="#portfolio" class="btn btn-secondary">معرض أعمالي</a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="profile-card">
+                <div class="profile-glow"></div>
+                <img src="images/channels4_profile.jpg" alt="Mahmoud Vega" class="hero-photo">
+                <div class="profile-content">
+                    <h3>محمود فيجا</h3>
+                    <p>مصمم ومونتاج فيديو احترافي</p>
+                    <div class="profile-badges">
+                        <span>4K</span>
+                        <span>Motion</span>
+                        <span>Social Media</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chat Section -->
+    <section id="ai-chat" class="ai-chat">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="aiTitle">Editor GPT</h2>
+                <p data-i18n="aiDesc">المساعد الذكي الداخلي للموقع، يساعدك في معرفة خدمات المونتاج والإجابة على استفساراتك بسرعة.</p>
+            </div>
+            <div class="ai-chat-card">
+                <div class="chat-window" id="chatWindow">
+                    <div class="chat-message bot active" data-i18n="aiWelcome">أهلاً بك! أنا Editor GPT، المساعد الذكي الداخلي لموقع محمود فيجا.</div>
+                </div>
+                <div class="chat-input-area">
+                    <input id="chatInput" type="text" placeholder="اكتب سؤالك عن المونتاج أو الموقع" data-i18n-placeholder="aiPlaceholder">
+                    <button id="chatSend" class="btn btn-primary" type="button" data-i18n="aiButton">اسأل الآن</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">أعمالي المميزة وده كمان</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="promo">إعلانات</button>
+                <button class="filter-btn" data-filter="intro">مقدمات</button>
+                <button class="filter-btn" data-filter="edit">مونتاج عام</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="promo" onclick="window.open('https://www.behance.net/gallery/236027327/reel-islamgroub-marketing-agency-egypet', '_blank', 'noopener,noreferrer')">
+                    <div class="portfolio-image">
+                        <img src="images/images (9).jpg" alt="شاشة مونتاج وفيديو تجهيز المشروع">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>إعلان تجاري احترافي</h3>
+                        <p>مشروع إعلاني متكامل مع مؤثرات وموسيقى</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="intro" onclick="window.open('https://www.behance.net/gallery/244733517/For-an-English-courses-company', '_blank', 'noopener,noreferrer')">
+                    <div class="portfolio-image">
+                        <img src="images/images (8).jpg" alt="واجهة تحرير فيديو ولوحة ألوان">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>مقدمة فيديو احترافية</h3>
+                        <p>مقدمة جميلة بمؤثرات 3D وحركات احترافية</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="edit" onclick="window.open('https://www.behance.net/gallery/236021239/reel-wosoolnet-marketing-agency-saudia-AR', '_blank', 'noopener,noreferrer')">
+                    <div class="portfolio-image">
+                        <img src="images/images (10).jpg" alt="شاشة تحرير فيديو ومونتاج متقدم">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>مونتاج فيديو متقدم</h3>
+                        <p>تعديل احترافي مع انتقالات وتأثيرات بصرية</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section id="videos" class="video-gallery">
+        <div class="container">
+            <h2 class="section-title">فيديو: كل فيديو باسمه</h2>
+            <p class="section-desc">هذه هي لقطاتك الحقيقية من الفولدر، كل فيديو يعبر عن لمسة الكاميرا والمونتاج السينمائي.</p>
+            <div class="video-grid" id="videoGrid"></div>
+            <div class="video-cta-card">
+                <div class="video-cta-content">
+                    <h3>للمزيد من أعمال الفيديو والتصميم</h3>
+                    <p>اضغط الزر التالي لتنتقل مباشرة إلى صفحة Behance واطلع على المزيد من المشاريع الاحترافية.</p>
+                    <a class="btn btn-primary video-cta-btn" href="https://www.behance.net/midofox3" target="_blank" rel="noopener noreferrer">للمزيد اضغط هنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <div class="container">
+            <h2 class="section-title">المتجر - قوالب واستثمارات</h2>
+            <p class="section-desc">قوالب احترافية وأدوات جاهزة للاستخدام لرفع مستوى محتواك</p>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/images (7).jpg" alt="شاشة مونتاج احترافية">
+                        <div class="product-badge">جديد</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>قالب مقدمة احترافي</h3>
+                        <p class="product-desc">قالب مقدمة أنيق مع مؤثرات احترافية لأي قناة</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> قابل للتخصيص بالكامل</span>
+                            <span><i class="fas fa-check"></i> دعم 4K</span>
+                            <span><i class="fas fa-check"></i> موسيقى مضمنة</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">199 جنيه</span>
+                            <button class="btn btn-small btn-primary">أضف للسلة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/images (5).jpg" alt="شاشة مونتاج وواجهة تحرير فيديو">
+                        <div class="product-badge">مشهور</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>حزمة انتقالات احترافية</h3>
+                        <p class="product-desc">50 انتقالة احترافية بتأثيرات مميزة</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> 50 انتقالة مختلفة</span>
+                            <span><i class="fas fa-check"></i> سهلة التثبيت</span>
+                            <span><i class="fas fa-check"></i> للعديد من المحررات</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">199 جنيه</span>
+                            <button class="btn btn-small btn-primary">أضف للسلة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/images (6).jpg" alt="قالب إعلان فيديو متقدم">
+                        <div class="product-badge">خاص</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>قالب إعلان متقدم</h3>
+                        <p class="product-desc">قالب إعلاني احترافي مع تأثيرات بصرية قوية</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> تأثيرات 3D</span>
+                            <span><i class="fas fa-check"></i> نصوص متحركة</span>
+                            <span><i class="fas fa-check"></i> لوحات ألوان متعددة</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">699 جنيه</span>
+                            <button class="btn btn-small btn-primary">أضف للسلة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/المؤثرات-الصوتية-٢.webp" alt="مجموعة مؤثرات صوتية">
+                    </div>
+                    <div class="product-info">
+                        <h3>مجموعة مؤثرات صوتية</h3>
+                        <p class="product-desc">مجموعة شاملة من المؤثرات الصوتية الاحترافية</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> 1000+ مؤثر</span>
+                            <span><i class="fas fa-check"></i> جودة عالية</span>
+                            <span><i class="fas fa-check"></i> ترخيص تجاري</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">99 جنيه</span>
+                            <button class="btn btn-small btn-primary">أضف للسلة</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>2000+</h3>
+                <p>مشروع منجز</p>
+            </div>
+            <div class="stat-item">
+                <h3>1200+</h3>
+                <p>عميل راضٍ</p>
+            </div>
+            <div class="stat-item">
+                <h3>8+</h3>
+                <p>سنوات خبرة</p>
+            </div>
+            <div class="stat-item">
+                <h3>4K</h3>
+                <p>جودة عالية</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-i18n="aboutTitle">عني</h2>
+                    <p data-i18n="aboutIntro">أنا محمود فيجا، سينيور مونتاج ومصمم فيديو حديث. بدأت رحلتي في عالم صناعة الفيديو قبل أكثر من 8 سنوات، وطورت خبرة عميقة في جميع جوانب المونتاج والتصميم.</p>
+                    <p data-i18n="aboutDesc">أعمل على بناء قصص بصرية قوية للشركات وصنّاع المحتوى بتقنيات إنتاج حديثة وتأثيرات جاذبة.</p>
+                    <h3 data-i18n="aboutSkillsTitle">مهاراتي:</h3>
+                    <ul class="skills-list">
+                        <li>المونتاج الاحترافي</li>
+                        <li>التأثيرات البصرية (VFX)</li>
+                        <li>تصميم المقدمات والنهايات</li>
+                        <li>تحرير الفيديو 4K</li>
+                        <li>إنشاء الرسوميات المتحركة</li>
+                        <li>تصميم الإعلانات التجارية</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/channels4_profile.jpg" alt="محمود مصطفى">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contactTitle">تواصل معي</h2>
+            <p class="section-desc" data-i18n="contactDesc">لديك مشروع في الذهن؟ تواصل معي لمناقشة أفكارك</p>
+            
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" name="name" placeholder="اسمك" required>
+                        <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+                        <input type="text" name="projectType" placeholder="نوع المشروع" required>
+                        <textarea name="message" placeholder="رسالتك..." rows="6" required></textarea>
+                        <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>الهاتف</h4>
+                            <p>01016022870</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>البريد الإلكتروني</h4>
+                            <p><a href="mailto:Mido223133331@gmail.com">Mido223133331@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>الموقع</h4>
+                            <p>مصر</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://x.com/hooda_233" target="_blank" rel="noopener noreferrer" title="X"><i class="fab fa-x"></i></a>
+                        <a href="https://www.instagram.com/hooda_2_3_0?igsh=MWt6cWJnM3VqNzc0Yw%3D%3D" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@mahmoud.m.salama1" target="_blank" rel="noopener noreferrer" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/@Video._.editor-M" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.snapchat.com/@mahmoudzaza423?share_id=EEAjTh-YMs4&locale=en-US" target="_blank" rel="noopener noreferrer" title="Snapchat"><i class="fab fa-snapchat"></i></a>
+                        <a href="https://www.facebook.com/mido.gamd.56?rdid=AMWvdU5IqCt3Bhzx&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F185pNppve4%2F#" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="work-links">
+                        <h4>معرض أعمالي</h4>
+                        <ul>
+                            <li><a href="https://www.behance.net/midofox3" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance"></i> Behance</a></li>
+                            <li><a href="https://x.com/hooda_233" target="_blank" rel="noopener noreferrer"><i class="fab fa-x"></i> X / Twitter</a></li>
+                            <li><a href="https://www.tiktok.com/@mahmoud.m.salama1" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                            <li><a href="https://www.youtube.com/@Video._.editor-M" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i> YouTube</a></li>
+                            <li><a href="https://www.instagram.com/hooda_2_3_0?igsh=MWt6cWJnM3VqNzc0Yw%3D%3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="https://www.snapchat.com/@mahmoudzaza423?share_id=EEAjTh-YMs4&locale=en-US" target="_blank" rel="noopener noreferrer"><i class="fab fa-snapchat"></i> Snapchat</a></li>
+                            <li><a href="https://www.facebook.com/mido.gamd.56?rdid=AMWvdU5IqCt3Bhzx&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F185pNppve4%2F#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        </ul>
+                    </div>
+                    <a href="https://linktr.ee/MahmoudFiga" target="_blank" rel="noopener noreferrer" class="floating-social-btn" title="رابط السوشيال ميديا"> <i class="fas fa-share-alt"></i> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 محمود مصطفى - جميع الحقوق محفوظة</p>
+            <ul class="footer-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#portfolio">أعمالي</a></li>
+                <li><a href="#shop">المتجر</a></li>
+                <li><a href="#contact">تواصل</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="video-modal" id="videoModal" aria-hidden="true">
+        <div class="video-modal-backdrop"></div>
+        <div class="video-modal-content" role="dialog" aria-modal="true" aria-label="عرض الفيديو">
+            <button class="video-modal-close" aria-label="إغلاق الفيديو">×</button>
+            <iframe
+                class="video-modal-player"
+                src=""
+                title="YouTube Shorts Player"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
